@@ -10,7 +10,8 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "format": "prettier --check 'src/**/*.{ts,tsx,js,jsx,json,css,md}' --write",
+    "prettier:list": "prettier . --check",
+    "prettier:fix": "prettier . --write",
     "build": "tsc",
     "test": "echo \"No tests yet\" && exit 0"
   },
